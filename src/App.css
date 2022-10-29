@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.custom-name {
+  font-size: 20px;
+}
+
+.list-container {
+  height: 76px;
+  background: #eaecf0;
+}
+
+footer {
+  height: 160px;
+  padding: 48px 5%;
+}
+
+.middle-footer-text {
+  font-size: 16px;
+  color: #667085;
+}
+
+.I4G {
+  width: 132.13px;
+  height: 32px;
+}
+
+/* media query for css smaller screen sizes */
+@media (max-width: 768px) {
+  .flex-column-small {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 10px;
+  }
+}
